@@ -195,7 +195,7 @@ $obj = new Account($dbc);
     <footer>
       <div id="footer">
         <p>Designed By Vipin Kumar</p>
-        <p>Copyright &copy; 2016-2019</p>
+        <p>Copyright &copy; 2016-<?php echo date('Y');?></p>
       </div>
     </footer>
   </body>
